@@ -1,5 +1,5 @@
 {
-	"name": "automattic/jetpack-changelogger",
+	"name": "dpanta94/jetpack-changelogger",
 	"description": "Jetpack Changelogger tool. Allows for managing changelogs by dropping change files into a changelog directory with each PR.",
 	"type": "project",
 	"license": "GPL-2.0-or-later",
