@@ -33,7 +33,7 @@ class Config {
 			'removed'    => 'Removed',
 			'fixed'      => 'Fixed',
 		),
-		'versioning'    => 'semver',
+		'versioning'    => 'modifiedSemver',
 	);
 
 	/**

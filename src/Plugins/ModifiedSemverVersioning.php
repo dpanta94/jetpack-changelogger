@@ -1,6 +1,8 @@
 <?php
 /**
- * Semver versioning plugin.
+ * Modified Semver versioning plugin.
+ *
+ * Allows for x.y.z.T where T is a hotfix version
  *
  * @package automattic/jetpack-changelogger
  */
@@ -15,7 +17,7 @@ use InvalidArgumentException;
 /**
  * ModifiedSemver versioning plugin.
  *
- * allows for x.y.z.T where T is a hotfix version
+ * Allows for x.y.z.T where T is a hotfix version
  */
 class ModifiedSemverVersioning implements VersioningPlugin {
 	use PluginTrait;
